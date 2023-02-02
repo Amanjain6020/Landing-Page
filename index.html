@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eazy ERP 4.0
+
+    </title>
+    <link rel="icon" href="eazy-logo.png " type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-size: 10px;
+        }
+
+        .heading1 {
+            color: black;
+            position: absolute;
+            top: 30%;
+            width: 42%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading2 {
+            color: black;
+            position: absolute;
+            top: 34%;
+            width: 25%;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading3 {
+            color: black;
+            position: absolute;
+            top: 42%;
+            width: 33%;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading4 {
+            color: blue;
+            position: absolute;
+            top: 50%;
+            width: 46%;
+            text-align: center;
+            font-size: 3rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading5 {
+            color: blue;
+            position: absolute;
+            top: 63%;
+            width: 40%;
+            text-align: center;
+            text-align: up;
+            font-size: 3rem;
+            border-radius: 12px;
+            font-family: 'Explora', cursive;
+        }
+
+        .heading6 {
+            color: blue;
+            position: absolute;
+            top: 10%;
+            width: 10%;
+            text-align: center;
+            text-align: up;
+            font-size: 3rem;
+            border-radius: 12px;
+            font-family: 'Explora', cursive;
+        }
+
+        .heading7 {
+            color: black;
+            position: absolute;
+            top: 10%;
+            width: 10%;
+            text-align: center;
+            text-align: up;
+            font-size: 1rem;
+            border-radius: 12px;
+            margin-left: 8%;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading8 {
+            color: black;
+            position: absolute;
+            top: 23%;
+            width: 10%;
+            text-align: center;
+            text-align: up;
+            font-size: 1rem;
+            border-radius: 12px;
+            font-family: 'Lato', sans-serif;
+            margin-left: 8%;
+        }
+
+        .heading11 {
+            color: white;
+            margin-left: 7%;
+            position: absolute;
+            top: 219%;
+            width: -10%;
+            text-align: center;
+            text-align: up;
+            font-size: 1rem;
+            border-radius: 12px;
+            font-family: 'Explora', cursive;
+        }
+
+        .heading12 {
+            color: white;
+            position: absolute;
+            top: 230%;
+            width: 19%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading13 {
+            color: white;
+            position: absolute;
+            top: 235%;
+            width: 19%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading14 {
+            color: white;
+            margin-left: 28%;
+            position: absolute;
+            top: 219%;
+            width: -10%;
+            text-align: center;
+            text-align: up;
+            font-size: 1rem;
+            border-radius: 12px;
+            font-family: 'Explora', cursive;
+        }
+
+        .heading15 {
+            color: white;
+            position: absolute;
+            top: 230%;
+            width: 63%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading16 {
+            color: white;
+            position: absolute;
+            top: 235%;
+            width: 65%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading17 {
+            color: white;
+            margin-left: 55%;
+            position: absolute;
+            top: 219%;
+            width: -10%;
+            font-family: 'Explora', cursive;
+        }
+
+        .heading18 {
+            color: white;
+            position: absolute;
+            top: 230%;
+            width: 115%;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading19 {
+            color: white;
+            position: absolute;
+            top: 235%;
+            width: 115%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading20 {
+            color: white;
+            margin-left: 80%;
+            position: absolute;
+            top: 219%;
+            width: -10%;
+            font-family: 'Explora', cursive;
+        }
+
+        .heading21 {
+            color: white;
+            position: absolute;
+            top: 230%;
+            width: 170%;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading22 {
+            color: white;
+            position: absolute;
+            top: 235%;
+            width: 170%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading23 {
+            color: white;
+            position: absolute;
+            top: 239%;
+            width: 170%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading24 {
+            color: white;
+            position: absolute;
+            top: 255%;
+            width: 100%;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading25 {
+            color: white;
+            position: absolute;
+            top: 265%;
+            width: 55%;
+            text-align: center;
+            font-size: 1rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading26 {
+            color: white;
+            margin-left: 7%;
+            position: absolute;
+            top: 280%;
+        }
+
+        .heading27 {
+            color: white;
+            margin-left: 45%;
+            position: absolute;
+            top: 280%;
+        }
+
+        .heading28 {
+            color: white;
+            margin-left: 73%;
+            position: absolute;
+            top: 280%;
+        }
+
+        .heading29 {
+            color: blue;
+            position: absolute;
+            top: 300%;
+            width: 125%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading30 {
+            color: blue;
+            position: absolute;
+            top: 300%;
+            width: 145%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .heading31 {
+            color: blue;
+            position: absolute;
+            top: 300%;
+            width: 165%;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <img class="headimg" src="head.png" alt="">
+
+            <h1 class="heading1"> Bridge towards Simpler Organizations!
+
+            </h1>
+            <h2 class="heading2">
+                Eazy ERP 4.0
+            </h2>
+            <h3 class="heading3">
+                Connecting Everyone
+            </h3>
+            <h4 class="heading4">
+                Coming on 19 January
+            </h4>
+            <h5 class="heading5"><button class="btn"> <img class="btimg" src="237042.png" alt=""> Reserve your
+                    seat</button>
+
+            </h5>
+            <h6 class="heading6"><img class="eazy-logoimg" src="eazy-logo.png" alt=""></h6>
+            <h7 class="heading7">
+                Enterprise Source
+            </h7>
+            <h8 class="heading8">
+                Planning System
+            </h8>
+        </header>
+        <main class="min-h-screen1 ">
+            <section>
+                <div class="flex">
+                    <div class="center">
+                        <h9 class="font-bold">Enterprise Resource Planning System, a software which made a significant
+                            impact in the life of Indian Manufacturers by remodeling their existing manual system of
+                            working to Automating it.</h9>
+
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="next">
+                    <p> A system which was ideally designed to track the activities has travelled leaps and miles from
+                        being a mere tracking system to a virtual member that monitors, tracks and guides the users in
+                        order to streamline and maintain the operational efficiency of the business.</p>
+                </div>
+            </section>
+            <section class="section1">
+                <div class="flex items-center">
+                    <div class="topleft flex justify-center flex-col px-2">
+                        <img class="my-1 " class="imagesimg" src="images.png" alt="">
+                        <h9 class="heading9">Eazy came into picture with a vision of standing out from Rest with its
+                            unique preposition and simultaneously catering the key challenges of SME Manufacturers
+                            thereby making their lives Easy!</h9>
+                    </div>
+
+                    <div class="topright"> </div>
+                    <img class="tallyimg" src="Tally-Logo-PNG-HD.png" alt="">
+                    <h10 class="heading10">This led to the launch of India’s 1st Tally Integrated ERP, Eazy ERP in 2007.
+                        An ERP which came with the simplicity of Tally</h10>
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="min-h-screen1 ">
+            <img class="footerimg" src="footer.png" alt="">
+            <h11 class="heading11"><img class="client1img" src="client1.png" alt=""></h11>
+            <h12 class="heading12">250+</h12>
+            <h13 class="heading13">Client</h13>
+            <h14 class="heading14"><img class="userimg" src="user.png" alt=""></h14>
+            <h15 class="heading15">2000+</h15>
+            <h16 class="heading16">Total user</h16>
+            <h17 class="heading17"><img class="locationimg" src="location.png" alt=""></h17>
+            <h18 class="heading18">20+ Cities</h18>
+            <h19 class="heading19">Our Presence</h19>
+            <h20 class="heading20"><img class="daysimg" src="days.png" alt=""></h20>
+            <h21 class="heading21">25 Days</h21>
+            <h22 class="heading22">Average Implementation</h22>
+            <h23 class="heading23">Time</h23>
+            <h24 class="heading24">Our Clients</h24>
+            <h25 class="heading25">We at Eazy Business Solutions value our client relationships. Our solutions are
+                designed to address the need of various industry verticals - scaling from low and mid-sized companies to
+                large production and manufacturing establishments.</h25>
+            <h26 class="heading26"><img class="mdhimg" src="mdh.png" alt=""></h26>
+            <h27 class="heading27"><img class="bikanoimg" src="bikano.png" alt=""></h27>
+            <h28 class="heading28"><img class="pigeonimg" src="pigeon.png" alt=""></h28>
+             <h29 class="heading29">Home</h29>
+            <h30 class="heading30">About</h30>
+            <h31 class="heading31">Contact</h31> 
+        </footer>
+
+</body>
+
+</html>
